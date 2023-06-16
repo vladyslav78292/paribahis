@@ -262,7 +262,7 @@ body {
 }
 
 .header__menu ul li a {
-	background: linear-gradient(90deg, #FFC700 0%, #FFEA21 100%), #FF9E2C;
+	background-color: #f8ff13;
 }
 
 .header__menu ul li a,
