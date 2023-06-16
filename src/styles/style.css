@@ -134,6 +134,7 @@ body {
 .main__pretitle {
 	font-size: 1.5em;
 	margin-top: 40px;
+  color: #f8ff14;
 }
 
 .main__paragraph--first {
@@ -447,6 +448,7 @@ body {
 
 .main-title {
 	font-size: 36px;
+  color: #f8ff14;
 	font-weight: 700;
 }
 
@@ -457,6 +459,10 @@ body {
 
 li::marker {
   color: #f8ff14;
+}
+
+.fixed__buttons {
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -471,6 +477,46 @@ li::marker {
   .main {
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 80px;
+  }
+
+  .fixed__button {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 46px;
+    margin-bottom: 42px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    padding: 12px 0;
+    text-transform: uppercase;
+    border-radius: 33px;
+    text-align: center;
+    width: calc(50% - 17px);
+    position: fixed;
+    bottom: 0px;
+  }
+
+
+  .fixed__buttons {
+    display: flex;
+    background-color: #232939;
+    padding-right: 12px;
+    gap: 10px;
+  }
+
+  .fixed__button--giris {
+    color: black;
+    background: linear-gradient(90deg, #FFC902 0%, #FFE61E 100%);
+    left: 12px;
+  }
+
+  .fixed__button--katyl {
+    background: #03B08A;
+    right: 12px;
+  }
+
+  .footer-copy {
     margin-bottom: 80px;
   }
 }
