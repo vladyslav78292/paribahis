@@ -4,10 +4,1161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="icon" href="./images/favicon.ico" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="bettilt-header header">
+      <div class="bettilt-header__logo header__logo" >
+        <svg class="header__logo-image" width="250" height="117" viewBox="0 0 150 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M62.7959 19.6921H56.7343L58.871 4.17847H64.9326L62.7959 19.6921Z" fill="#F8FF13"/>
+          <path d="M129.255 19.6921H123.194L125.33 4.17847H131.392L129.255 19.6921Z" fill="white"/>
+          <path d="M117.868 4.17847L117.065 9.99606H111.004L111.807 4.17847H105.745L104.942 9.99606L104.409 13.8745L103.606 19.6921H109.667L110.47 13.8745H116.532L115.729 19.6921H121.79L122.593 13.8745L123.127 9.99606L123.93 4.17847H117.868Z" fill="white"/>
+          <path d="M80.4229 4.17847H66.2782L65.7417 8.05687H76.5223C76.8921 8.05687 77.1406 8.44083 77.0739 8.91787C77.0103 9.39103 76.6557 9.77887 76.2829 9.77887H65.5053L64.9689 13.6573L64.1415 19.6921H78.2862C80.5169 19.6921 82.6445 17.3767 83.0385 14.5222L83.0991 14.0917C83.2598 12.9204 82.884 11.4078 82.005 11.082C82.3808 10.7873 82.9961 9.96504 83.1355 8.91787L83.1961 8.48737C83.5235 6.10991 82.2839 4.17847 80.4199 4.17847H80.4229ZM76.9769 14.5222C76.9133 14.9953 76.5556 15.3832 76.1859 15.3832H70.7971L71.0335 13.6612H76.4223C76.7951 13.6612 77.0466 14.0451 76.9769 14.5222V14.5222Z" fill="white"/>
+          <path d="M149.95 8.05687C150.277 5.67553 148.977 4.17847 147.116 4.17847H135.665C133.804 4.17847 132.031 6.10603 131.704 8.48737L131.586 9.34837C131.259 11.7297 132.501 13.6573 134.359 13.6573H142.442C142.815 13.6573 143.064 14.0412 142.997 14.5183C142.93 14.9953 142.576 15.3793 142.206 15.3793H130.755C130.428 17.7606 131.671 19.6882 133.529 19.6882H144.306C146.537 19.6882 148.667 17.3728 149.058 14.5183L149.119 14.0878C149.446 11.7064 148.204 9.77887 146.346 9.77887H138.263C137.89 9.77887 137.641 9.39491 137.708 8.91787C137.775 8.44083 138.129 8.05687 138.499 8.05687H149.95V8.05687Z" fill="white"/>
+          <path d="M16.4518 4.17847H1.63417L0.270313 14.0839H14.4151C16.6488 14.0839 18.7764 11.7685 19.1674 8.91399L19.228 8.48737C19.5553 6.10991 18.3157 4.17847 16.4518 4.17847ZM13.1058 8.91399C13.0724 9.15057 12.9724 9.36776 12.8269 9.52678C12.6814 9.68192 12.4996 9.775 12.3147 9.775H6.92595L7.16539 8.05687H12.5572C12.9239 8.05687 13.1724 8.44471 13.1058 8.91399ZM2.57978 19.6882H5.56512L6.10157 15.8098H0.0399714C-0.238862 17.8343 0.976489 19.6882 2.58281 19.6882H2.57978Z" fill="#F8FF13"/>
+          <path d="M57.1494 8.91784L57.207 8.49121C57.5343 6.10988 56.2917 4.18231 54.4338 4.18231H39.6162L37.4795 19.692H43.5411L44.3139 14.0916H46.0567L49.0905 19.692H55.5825L52.5426 14.08C54.7187 13.9791 56.7614 11.7103 57.1464 8.91784H57.1494ZM45.1444 8.06071H50.5362C50.9059 8.06071 51.1545 8.44467 51.0878 8.91784C51.0211 9.39488 50.6665 9.77884 50.2967 9.77884H44.908L45.1444 8.06071V8.06071Z" fill="#F8FF13"/>
+          <path d="M29.9238 19.692H36.4157L33.9153 4.18231H23.0014L16.2124 19.692H22.7044L23.6439 17.5434H29.5752L29.9207 19.692H29.9238ZM25.5321 13.2345L27.981 7.64184L28.8842 13.2345H25.5321Z" fill="#F8FF13"/>
+          <path d="M96.0406 19.6921H102.533L100.029 4.17847H95.6102L89.1152 4.18622L82.3262 19.6921H88.8182L89.7578 17.5434H95.689L96.0345 19.6921H96.0406ZM91.649 13.2345L94.0979 7.64188L95.001 13.2345H91.649Z" fill="white"/>
+          <path d="M65.1443 3.06953H59.0827L59.4342 0H65.4958L65.1443 3.06953Z" fill="#F8FF13"/>
+          <path d="M131.693 3.06953H125.631L125.983 0H132.044L131.693 3.06953Z" fill="white"/>
+        </svg>        
+      </div>
+      <nav class="bettilt-header__menu header__menu">
+        <ul id="menu-top" class="bettilt-menu menu">
+          <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-45"><span><a href="https://btt-tr.wqetxrk.com/tr?partner=p2855p20154p973b&source=bt-resmi#registration-bonus">Kayıt ol</a></span></li>
+          <li id="menu-item-5159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5159"><a href="https://btt-tr.wqetxrk.com/tr?partner=p2855p20154p973b&source=bt-resmi#registration-bonus">Giriş yap</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="main-title">Paribahis</h1>
+      <div class="list_titles">
+        <ul class="list_titles content">
+            <li><a class="list_element-link" href="#destek">Paribahis Destek</a></li>
+            <li><a class="list_element-link" href="#lisans">Geçerli Kurasao Lisansı</a></li>
+            <li><a class="list_element-link" href="#yeni">Yeni kullanıcının doğrulanması</a></li>
+            <li><a class="list_element-link" href="#odeme">Paribahis Ödeme Bilgileri</a></li>
+            <li><a class="list_element-link" href="#bonus">Bonusları ve Promosyonları</a></li>
+            <li><a class="list_element-link" href="#giris">Paribahis Giriş ve Üyelik</a></li>
+            <li><a class="list_element-link" href="#hesap">Paribahis Hesap İptali</a></li>
+            <li><a class="list_element-link" href="#casino">Paribahis Casino</a></li>
+            <li><a class="list_element-link" href="#canli">Paribahis Canlı Oyunlar</a></li>
+            <li><a class="list_element-link" href="#bahis">Paribahis Bahis</a></li>
+            <li><a class="list_element-link" href="#espor">eSpor karşılaşmaları</a></li>
+            <li><a class="list_element-link" href="#mobil">Mobil Site</a></li>
+            <li><a class="list_element-link" href="#sirketinin">Bahis şirketinin oyuncu yorumları</a></li>
+            <li><a class="list_element-link" href="#sss">Sıkça Sorulan Sorular</a></li>
+            <li><a class="list_element-link" href="#sonuc">Sonuç</a></li>
+        </ul>
+<label class="list_label" for="titles"></label>
+</div>
+<p class="main__paragraph">
+    Paribahis, kullanıcılara geniş bir oyun ve bahis deneyimi sunan bir online
+    bahis sitesidir. Site, spor bahisleri, canlı bahisler, casino oyunları,
+    canlı casino ve sanal bahis gibi çeşitli oyun seçeneklerine sahiptir.
+    Kullanıcılar, futbol, basketbol, tenis, voleybol gibi popüler sporlara bahis
+    yapabilir veya canlı maçlarda anlık bahisler yapabilirler. Ayrıca,
+    Paribahis'te çeşitli casino oyunları da bulunur, bu da kullanıcıların slot
+    makineleri, rulet, blackjack gibi favori oyunlarını oynama imkanı sağlar.
+    Paribahis, güvenilir ve lisanslı bir platform olup, kullanıcıların güvenli
+    bir şekilde bahis yapmalarını sağlamak için gerekli güvenlik önlemlerini
+    almıştır. Ayrıca, site kullanıcı dostu bir arayüze sahiptir ve kolay
+    erişilebilir müşteri hizmetleri sunar.
+</p>
+
+<p class="main__paragraph"><strong>Paribahis Sanal Bahis Sitesi Bilgileri</strong></p>
+
+<div class="table">
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Firma Adı:</p>
+    </div>
+    <p class="table-description">Paribahis</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Resmi Kayıtlı Adresi:</p>
+    </div>
+    <a href="http://www.bettilt.com" class="table-description">www.paribahis.com</a>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Lisans Bilgileri:</p>
+    </div>
+    <p class="table-description">Curacao 8048/JAZ2014-034 ve 10’dan fazla  ülkede yerel lisanslar</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Temel Sağlayıcılar</p>
+    </div>
+    <p class="table-description">NetEnt, Playson, PragmaticPlay, Booongo, Aviatrix, Evolution Gaming, Playtech, Oryx Gaming</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">İngilizce ve Türkçe</p>
+    </div>
+    <p class="table-description">İngilizce ve Türkçe</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Kullanılan Para Birimleri</p>
+    </div>
+    <p class="table-description">TL, EUR, USD</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Oyunlar</p>
+    </div>
+    <p class="table-description">Betgames, TVBET, Casino, Canlı Casino ve Canlı Oyunlar</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Hesaba Yüklenebilecek En Düşük Tutar</p>
+    </div>
+    <p class="table-description">25 TL</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Hesaptan Çekilebilecek En Düşük Tutar</p>
+    </div>
+    <p class="table-description">50 TL</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">İletişim</p>
+    </div>
+    <p class="table-description">Canlı destek, e-posta, telefon, Telegram ve Whatsapp, Sosyal Medya</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Hoş Geldin Bonusu</p>
+    </div>
+    <p class="table-description">%150 Oranında 5.000 TL ve 150 FS</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Mobil Uygulama</p>
+    </div>
+    <p class="table-description">Mobil: Android ve IOS / PC: Windows</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Aktif Bonus Sayısı</p>
+    </div>
+    <p class="table-description">13</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Bahis TV</p>
+    </div>
+    <p class="table-description">Aktif (Sadece Üyelere Özel)</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Belge Doğrulama</p>
+    </div>
+    <p class="table-description">Zorunlu</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Çevrim Şartları</p>
+    </div>
+    <p class="table-description">Spor’da 10 Katı Casino’da 40 Katı</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Para Transfer Kanal Sayısıi</p>
+    </div>
+    <p class="table-description">12+</p>
+  </div>
+  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Sadakat Programı</p>
+    </div>
+    <p class="table-description">Aktif</p>
+  </div>  <div class="table-row">
+    <div class="table-title-container">
+      <p class="table-title first-table-title">Ödül Havuzlu Etkinlikler</p>
+    </div>
+    <p class="table-description">Aktif</p>
+  </div>
+</div>
+<h2 class="main__pretitle" id="destek">Paribahis Destek</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis daim 7/24 hızlı bir şekilde destek almanıza imkan tanıyan bir
+    sisteme sahiptir. Canlı destek programıyla birlikte, e-posta ile destek ve
+    diğer destek kanallarının kullanımı hem kolay hem de hızlıdır. Böylelikle
+    her türlü konuda kısa süre içerisinde yardım alınıp, oluşan sorunların
+    çözümü söz konusu olabilir.
+</p>
+<p class="main__paragraph">
+    Temel destek kanalları ve nitelikleri ise şunlardır:
+</p>
+<ul class="list_titles">
+    <li><strong>Canlı Destek:</strong>Üyelik işlemlerinden tutun da hesap iptali,
+    bonus tanımlamaları, ödemelerde yaşanan problemler ve aklınıza gelebilecek
+    tüm konulara dair canlı destekten günün her saati ve zaman diliminde destek
+    alabilirsiniz.</li>
+    <li><strong>Telegram:</strong>Tüyelik konuları başta olmak üzere diğer birçok
+        konuya dair çözümler elde edebilirsiniz.</li>
+    <li><strong>E-posta ile Destek:</strong>
+    <a href="mailto:support@paribahis.com">
+        support@paribahis.com</a> ya da <a href="mailto:destek@paribahis.com">destek@paribahis.com</a> isimli
+        e-mail adreslerine 7/24 e-posta ile ulaşabilirsiniz.</li>
+    <li><strong>Sosyal Medya ve Whatsapp:</strong>Paribahis tarafından sosyal
+    medya ve Whatsapp, genel manada duyuru amacı ve aynı zamanda giriş adresi
+    ilanı için kullanılır. Her ne kadar bu amaçlar doğrultusunda kullanılıyor
+    olsalar da yatırımcıların zaman zaman Paribahis’le bu kanallar üzerinden
+        iletişim kurmaları söz konusu olabilir.</li>
+</ul>
+<h2 class="main__pretitle" id="lisans">Geçerli Kurasao Lisansı</h2>
+<p class="main__paragraph main__paragraph--first" >
+    Paribahis, geçerli bir Curacao lisansına sahip olan güvenilir bir bahis
+    sitesidir. Curacao eGaming otoritesi tarafından lisanslandırılan Paribahis,
+    lisans gerekliliklerini yerine getirerek kullanıcılara güvenli bir oyun
+    ortamı sunmaktadır. Bu lisans, siteye düzenli denetimler yapılmasını sağlar
+    ve adil oyun kurallarının uygulanmasını garanti eder. Paribahis'in Curacao
+    lisansı, kullanıcıların bilgilerinin korunduğunu ve güvenli ödeme
+    işlemlerinin gerçekleştirildiğini gösterir. Ayrıca, bu lisans kullanıcıların
+    şikayetlerini iletmeleri durumunda yetkililerin bu şikayetlere adil bir
+    şekilde yanıt vermesini sağlar. Paribahis'in geçerli Curacao lisansı,
+    kullanıcıların güvenli ve güvenilir bir bahis deneyimi yaşamalarını
+    sağlamaktadır.
+</p>
+<p class="main__paragraph">
+    Lisanslı bir casino:
+</p class="main__paragraph">
+<ul class="list_titles">
+    <li>Yasal olarak faaliyet gösterdiği için kullanıcıların haklarını
+    korur ve güvence altına alır.</li>
+    <li>Oyun sonuçlarını bağımsız denetimlere tabi tutarak adil bir oyun
+    ortamı sağlar.</li>
+    <li>Müşteri memnuniyetini ön planda tutar ve sorumlu oyun
+    politikalarına uyar.</li>
+    <li>Oyunculara güvenilir ödeme yöntemleri ve hızlı para çekme imkanı
+    sunar.</li>
+    <li>Oyunculara yasal bir çerçeve içinde oyun oynama ve bahis yapma
+    fırsatı sunar.</li>
+    </ul>
+<h2 class="main__pretitle" id="yeni">Yeni kullanıcının doğrulanması</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis, yeni kullanıcıların doğrulanmasını önemseyen bir süreci
+    benimsemektedir. Yeni kullanıcıların hesaplarını doğrulamaları için belirli
+    belgeleri sunmaları gerekmektedir:
+</p>
+<ul class="list_titles">
+    <li>
+        <strong>Kimlik Belgesi</strong>: Kullanıcıların kimliklerini doğrulamak
+        için nüfus cüzdanı, pasaport veya ehliyet gibi resmi bir kimlik belgesi
+        sunmaları gerekmektedir.
+    </li>
+    <li>
+        <strong>Adres Kanıtı</strong>: Kullanıcıların ikamet ettikleri adresi
+        doğrulamak için fatura, banka ekstresi veya resmi bir belge gibi
+        adreslerini kanıtlayan belgeler sunmaları gerekmektedir.
+    </li>
+    <li>
+        <strong>Ödeme Yöntemi Belgeleri</strong>: Kullanıcılar, para yatırma ve
+        çekme işlemlerini doğrulamak için kullandıkları ödeme yöntemine ait
+        belgeleri sağlamaları gerekmektedir. Bu belgeler banka hesap özeti,
+        kredi kartı ekstresi veya e-cüzdan hesap bilgileri gibi olabilir.
+    </li>
+    <li>
+        <strong>Fotoğraf Doğrulaması</strong>: Bazı durumlarda, kullanıcıların
+        kendi fotoğraflarını veya selfie'lerini hesap doğrulaması için
+        sağlamaları gerekebilir.
+    </li>
+</ul>
+<p class="main__paragraph">
+    Bu belgelerin sağlanması, kullanıcıların hesaplarını doğrulayarak güvenli
+    bir oyun deneyimi yaşamalarını sağlamak için önemlidir. Paribahis,
+    kullanıcıların güvenliğini sağlamak ve dolandırıcılık faaliyetlerini önlemek
+    için doğrulama prosedürünü titizlikle uygular. Doğrulama işlemi
+    tamamlandıktan sonra kullanıcılar, Paribahis platformunda oyun oynamaya ve
+    bahis yapmaya tam erişim elde ederler.
+</p>
+<h2 class="main__pretitle" id="odeme">Paribahis Ödeme Bilgileri</h2>
+<p>
+    Paribahis, geniş bir ödeme seçeneği yelpazesi sunarak kullanıcılara kolay ve
+    güvenilir bir ödeme deneyimi sağlar. Kullanıcılar, çeşitli yöntemler
+    aracılığıyla hesaplarına para yatırabilir ve çekebilirler. Bu ödeme
+    seçenekleri arasında banka havalesi, kredi kartı, e-cüzdanlar ve ön ödemeli
+    kartlar gibi popüler yöntemler bulunur. Paribahis, güvenlik önlemleri alarak
+    kullanıcıların ödemelerini güvende tutar ve gizliliklerini korur.
+    Kullanıcılar, hesap bakiyelerini kolayca takip edebilir ve ödeme işlemlerini
+    hızlı ve güvenli bir şekilde gerçekleştirebilirler. Paribahis,
+    kullanıcılardan herhangi bir işlem için ek bir ücret talep etmez ve çeşitli
+    para birimlerinde ödeme kabul eder.
+</p>
+<div class="second__table table">
+  <div class="second__table-row">
+    <div class="table-title-container second__table-title-container">
+      <p class="table-title second-table-title">Para Yatırma Kanalı</p>
+    </div>
+    <p class="table-description second__table-description--with-width">Minimum Yatırım (TL)</p>
+    <p class="table-description second-table-description">Maksimum Yatırım (TL)</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Jetpapara</p>
+    </div>
+    <p class="table-description second__table-description--with-width">100</p>
+    <p class="table-description second-table-description">50.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Parapa 2</p>
+    </div>
+    <p class="table-description second__table-description--with-width">50</p>
+    <p class="table-description second-table-description">50.000</p>
+  </div>
+
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Havale i</p>
+    </div>
+    <p class="table-description second__table-description--with-width">100</p>
+    <p class="table-description second-table-description">100.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Kolay Havale</p>
+    </div>
+    <p class="table-description second__table-description--with-width">100</p>
+    <p class="table-description second-table-description">100.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Kripto Ödeme</p>
+    </div>
+    <p class="table-description second__table-description--with-width">50</p>
+    <p class="table-description second-table-description">500.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">>Kredi Kartı</p>
+    </div>
+    <p class="table-description second__table-description--with-width">50</p>
+    <p class="table-description second-table-description">1.000</p>
+  </div>
+
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">PeP</p>
+    </div>
+    <p class="table-description second__table-description--with-width">25</p>
+    <p class="table-description second-table-description">10.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">MEFETE</p>
+    </div>
+    <p class="table-description second__table-description--with-width">25</p>
+    <p class="table-description second-table-description">10.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Payfix</p>
+    </div>
+    <p class="table-description second__table-description--with-width">25</p>
+    <p class="table-description second-table-description">50.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Havale</p>
+    </div>
+    <p class="table-description second__table-description--with-width">500</p>
+    <p class="table-description second-table-description">10.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Paybol</p>
+    </div>
+    <p class="table-description second__table-description--with-width">25</p>
+    <p class="table-description second-table-description">50.000</p>
+  </div>
+  <div class="second__table-row">
+    <div class="table-title-container second-table-title-container">
+      <p class="table-title second-table-title">Jeton</p>
+    </div>
+    <p class="table-description second__table-description--with-width">50</p>
+    <p class="table-description second-table-description">50.000</p>
+  </div>
+</div>
+<p class="main__paragraph">
+    <strong>Nasıl para yatırabilirim?</strong>
+</p>
+<ul class="list_titles">
+<li>“Cüzdan” sayfasına giriş yapınız ve “Para Yatır” sekmesine doğru
+    ilerleyiniz.</li>
+<li>Ardından para yatırma yöntemlerinden size en uygun olanını seçiniz.</li>
+<li>Hemen ardından tutar girişi yapınız ve bonus seçimi gerçekleştiriniz.</li>
+<li>Sonrasında ise para yatırma işlemlerine dair doğrulama adımlarını
+    tamamlayınız.</li>
+<li>Hesabınızdan, Paribahis tarafından belirtilen bilgilere ödeme
+    sağlayınız.</li>
+<li>Ödemeye dair dekontu Paribahis sistemine yükleyiniz.</li>
+<li>Kısa süre içerisinde kontroller sağlanacak, ödeme işleminiz
+    doğrulanıp tarafınıza konu hakkında bilgi verilecektir.</li>
+    </ul>
+
+    <div class="third__table table">
+      <div class="third__table-row">
+        <div class="table-title-container third__table-title-container">
+          <p class="table-title third-table-title">Para Çekme Kanalı</p>
+        </div>
+        <p class="table-description third__table-description--with-width">Minimum Yatırım (TL)</p>
+        <p class="table-description third-table-description">Maksimum Yatırım (TL)</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Kripto ile Para Çekme</p>
+        </div>
+        <p class="table-description third__table-description--with-width">200</p>
+        <p class="table-description third-table-description">200.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">MEFETE</p>
+        </div>
+        <p class="table-description third__table-description--with-width">50</p>
+        <p class="table-description third-table-description">20.000</p>
+      </div>
+    
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">JetPapara</p>
+        </div>
+        <p class="table-description third__table-description--with-width">100</p>
+        <p class="table-description third-table-description">50.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">PeP</p>
+        </div>
+        <p class="table-description third__table-description--with-width">50</p>
+        <p class="table-description third-table-description">10.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">M Pay Papara</p>
+        </div>
+        <p class="table-description third__table-description--with-width">50</p>
+        <p class="table-description third-table-description">10.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">iPayfix</p>
+        </div>
+        <p class="table-description third__table-description--with-width">100</p>
+        <p class="table-description third-table-description">20.000</p>
+      </div>
+    
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Jeton</p>
+        </div>
+        <p class="table-description third__table-description--with-width">50</p>
+        <p class="table-description third-table-description">20.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">MEFETE</p>
+        </div>
+        <p class="table-description third__table-description--with-width">25</p>
+        <p class="table-description third-table-description">10.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Papara</p>
+        </div>
+        <p class="table-description third__table-description--with-width">20</p>
+        <p class="table-description third-table-description">12.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Havale</p>
+        </div>
+        <p class="table-description third__table-description--with-width">500</p>
+        <p class="table-description third-table-description">20.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Kolay Havale</p>
+        </div>
+        <p class="table-description third__table-description--with-width">250</p>
+        <p class="table-description third-table-description">50.000</p>
+      </div>
+      <div class="third__table-row">
+        <div class="table-title-container third-table-title-container">
+          <p class="table-title third-table-title">Paybol</p>
+        </div>
+        <p class="table-description third__table-description--with-width">50</p>
+        <p class="table-description third-table-description">50.000</p>
+      </div>
+    </div>
+<p class="main__paragraph">
+    <strong>Nasıl Para Çekme İşlemi Yapılır?</strong>
+</p>
+<ul class="list_titles">
+<li>“Hesabım” ve “Para Çekme” adımlarını takip ediniz.</li>
+<li>Açılan sayfada sizin için en kolay olan para çekme yöntemini seçiniz.</li>
+<li>Sonrasında tutar girişi yapınız.</li>
+<li>Seçtiğiniz yönteme dair gerekli doğrulama işlemlerini
+    gerçekleştiriniz ve hesap bilgilerinizi tanımlayınız.</li>
+<li>Para çekme talebiniz alınacaktır ve kısa süre içreisinde para çekme
+    işleminize dair konu hakkında tarafınıza bilgi verilecektir.</li>
+    </ul>
+<h2 class="main__pretitle" id="bonus">Paribahis Bonusları ve Promosyonları</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis firması tarafından yatırımcılara sağlanan birçok bonus ve
+    promosyon türü mevcuttur. Yatırım bonusları, kayıp bonusları, turnuvalar,
+    üyelik bonusları gibi daha birçok bonus türünden bahsedilebilir.
+    Yatırımcılar belirli ve kolay şartları yerine getirmeleri durumunda
+    belirtilen tutarlarda bonuslar kazanırlar. Sonrasında da kazanmış oldukları
+    bonusların çevrim şartlarını yerine getirerek, ek gelir elde etme imkanına
+    da sahip olurlar.
+</p>
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Üyelik Bonusları:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Yatırımcıların Paribahis’e üye olmaları
+    nedeniyle sahip oldukları avantajlardır. Bu avantajlar sadece üyelere
+        geçerli olduğu için üyelik bonusları olarak tanımlanırlar.</p>
+    </dl>
+    <div class="table">
+      <div class="table-row fourth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fourth-table-title table-title-transparent">Üyelik Bonusları</p>
+        </div>
+        <p class="table-description fourth-table-description">%150 oranında 5.000 TL’ye kadar hoş geldin bonusu ve ek 150 Freespin imkanından yararlanabilirsiniz.</p>
+      </div>
+      <div class="table-row fourth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fourth-table-title">Üyelik Bonusları</p>
+        </div>
+      <p class="table-description fourth-table-description">Yapmış olduğunuz her yatırım özelinde Paribahis Puan kazanabilir ve sonrasında bu puanları nakde dönüştürebilirsiniz.</p>
+      </div>
+      <div class="table-row fourth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fourth-table-title table-title-transparent">Üyelik Bonusları</p>
+        </div>
+        <p class="table-description fourth-table-description">Doğum gününüzde size özel tanımlanan 100 Freespin bonusundan faydalanabilirsiniz.</p>
+      </div>
+    </div>
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Turnuvalar:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Paribahis ve Casino sağlayıcıları tarafından
+    düzenlenen bonus etkinlikleri ile devasa havuz ödüllerinden devasa bonus
+        tutarları kazanabilirsiniz.</p>
+</dl>
+    <div class="table">
+      <div class="table-row fifth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fifth-table-title table-title-transparent">Turnuvalar</p>
+        </div>
+        <p class="table-description">30.000.000 Euro tutarında ödül havuzu ile Pragmatic Play Ödül Yağmuru bonus etkinliği</p>
+      </div>
+      <div class="table-row fifth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fifth-table-title">Turnuvalar</p>
+        </div>
+      <p class="table-description">Spinomenal 150.000 Euro Ödül Havuzlu Ödül Yarışı!</p>
+      </div>
+      <div class="table-row fifth-table-row">
+        <div class="table-title-container">
+          <p class="table-title fifth-table-title table-title-transparent">Turnuvalar</p>
+        </div>
+        <p class="table-description">Soruları tahmin ederek ödül havuzu 100.000 USD olan bonus etkinliği</p>
+      </div>
+    </div>
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Yatırım Bonusları:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Yapmış olduğunuz para yatırma
+    işlemlerine özgü bonus kazanmanıza olanak sağlayan bonuslara, yatırım
+        bonusları denir.</p>
+</dl>
+<div class="table">
+  <div class="table-row sixth-table-row">
+    <div class="table-title-container">
+      <p class="table-title sixth-table-title table-title-transparent">Yatırım Bonusları</p>
+    </div>
+    <p class="table-description">%30 oranında yapmış olduğunuz her kripto para yatırma işleminde bonus kazanabilirsiniz.</p>
+  </div>
+  <div class="table-row sixth-table-row">
+    <div class="table-title-container">
+      <p class="table-title sixth-table-title">Yatırım Bonusları</p>
+    </div>
+  <p class="table-description">Yapılan her para yatırma işleminde %15 oranında yatırım bonusu ve ek olarak 100 freespin</p>
+  </div>
+  <div class="table-row sixth-table-row">
+    <div class="table-title-container">
+      <p class="table-title sixth-table-title table-title-transparent">Yatırım Bonusları</p>
+    </div>
+    <p class="table-description">Sadece Mayıs ayında geçerli Poppy ile yapılan yatırımlarda %20 oranında para yatırma bonusu</p>
+  </div>
+</div>
+
+<h2 class="main__pretitle" id="giris">Paribahis Giriş ve Üyelik</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis sanal bahis sitesine giriş yapabilmeniz adına ilk olarak üyelik
+    oluşturmanız gerekir. Oluşturduğunuz üyeliği doğrulamanız sonrasında da
+    direkt olarak istediğiniz zaman bahis sistemine erişiminiz söz konusu olur.
+</p>
+<p class="main__paragraph">
+    Üyelik oluşturmak adına aşağıdaki adımları takip etmeniz yeterlidir:
+</p>
+<ol class="list_titles">
+    <li>
+        <strong>İlk Kayıt Aşaması:</strong> İlk kayıt aşamasında sizden temel
+        bilgiler talep edilmektedir. “Üye Ol” butonuna basmanızla birlikte
+        karşınıza e-posta, telefon numarası, şifre ve sözleşme onayı gibi
+        bilgiler isteyen bir form çıkacaktır. Bu formda istenilen bilgileri
+        doğru, eksiksiz ve size ait bir şekilde doldurmanız son derece
+        önemlidir. Bunun nedeni ise ilerleyen süreçte bu bilgiler özelinde
+        doğrulama yapılmasıdır.
+    </li>
+    <li>
+        <strong>Üyelik Bilgilerini Tamamlama:</strong> İkinci aşamada ise üyelik
+        bilgilerinin tamamlanması gerekir. İlk aşama sonucunda yönlendirilmiş
+        olduğunuz bahis sisteminde “Profil” kısmına giderek, bu kısımda; isim
+        soyisim, doğum tarihi, adres, para birimi, ülke ve daha birçok bilgiyi
+        ilgili alanlara tanımlamanız gerekir.
+    </li>
+    <li>
+        <strong>Hesap Bilgilerinin Doğrulanması:</strong> Bu aşamada ise
+        tanımlamış olduğunuz her bilginin belgeler vasıtasıyla doğrulanması söz
+        konusu olacaktır. Yapmanız gereken ise kimlik bilgilerinizin
+        doğrulanması özelinde; kimlik, ehliyet ya da pasaport bilgilerinizi
+        ilgili alanlara girmek, adres bilgilerinizin doğrulanması özelinde;
+        ikametgah belgesi, fatura ya da banka hesap dökümü gibi belgelerin
+        ibrazını gerçekleştirmektir. Ek olarak kredi kartı ile para yatırmak
+        isterseniz, kredi kartı doğrulaması da yapmanız gerekir.
+    </li>
+    <li>
+        <strong>Hesap Aktivasyonu:</strong> Son aşamada ise e-posta üzerinden
+        gönderilen link ve cep telefonunuza gönderilen SMS doğrulama kodlarıyla
+        aktivasyon işlemleri tamamlanmaktadır. Böylelikle hesabınızın aktivasyon
+        süreci de tamamlanır ve üyelik işlemleri sonuçlanmış olur.
+    </li>
+</ol>
+<p class="main__paragraph">
+    Üyelik işlemlerinin sonuçlanmasıyla birlikte artık dilediğiniz gibi giriş
+    yapabilirsiniz. Paribahis’e giriş için de aşağıdaki adımları takip etmeniz
+    yeterlidir:
+</p>
+<ul class="list_titles">
+    <li>Sitemiz üzerinden elde ettiğiniz giriş adresi ile Paribahis’in güncel
+    adresine giriş yapınız. Aynı zamanda mobil uygulama üzerinden de giriş
+    yapabilirsiniz.</li>
+    <li>Ardından “Giriş Yap” kısmına tıklayarak, sadece kullanıcı adı veya
+    e-mail adresi ve şifrenizi giriş yapınız.</li>
+    <li>Siteye ikinci girişiniz ise gerekli doğrulamaları tamamlayınız.
+    Değilse zaten giriş işleminiz başarıyla tamamlanacaktır.</li>
+    </ul>
+<h2 class="main__pretitle" id="hesap">Paribahis Hesap İptali</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis hesap iptali, kullanıcıların hesaplarını kapatma taleplerini
+    yerine getirme hizmetini sunar. Hesap iptali için kullanıcılar, Paribahis
+    müşteri hizmetleriyle iletişime geçerek taleplerini iletebilirler. Hesap
+    iptali işlemi, kullanıcıların hesaplarının tamamen kapatılmasını ve tüm
+    kişisel bilgilerinin silinmesini sağlar.
+</p>
+<p class="main__paragraph">
+    Paribahis hesabını iptal etmek için 4 adım:
+</p>
+<ol class="list_titles">
+<li>Paribahis hesabınıza giriş yapın ve hesap ayarlarına erişin.</li>
+<li>Hesap ayarları bölümünde "Hesap İptali" veya "Hesabımı Kapat" gibi
+    bir seçeneği arayın.</li>
+<li>Hesap iptali talebinizi belirtmek için gerekli adımları takip edin.
+    Bu genellikle bir onaylama süreci gerektirebilir.</li>
+<li>İsteğinizi tamamladıktan sonra, Paribahis müşteri hizmetleriyle
+    iletişime geçin veya sistem tarafından belirtilen yönergeleri izleyin.
+    Hesabınızın iptali için gereken süre ve işlemler hakkında daha fazla bilgi
+    alacaksınız.</li>
+    </ol>
+<p class="main__paragraph">
+    Hesap iptali işlemi, kullanıcıların kendi istekleri doğrultusunda
+    gerçekleştirilir ve Paribahis'in güvenlik ve gizlilik politikalarıyla uyumlu
+    bir şekilde işlem yapar. Hesap iptali sonrasında, kullanıcıların Paribahis'e
+    erişimi ve bahis oynama yetenekleri sona erer.
+</p>
+<h2 class="main__pretitle" id="casino">Paribahis Casino</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis sanal bahis sitesinin Casino alanında devasa bir bahis ya da
+    casino ortamı sunduğunu belirtmek gerekir. Başlangıç, orta ve uzman
+    seviyelerindeki tüm yatırımcılara dair çeşit çeşit birçok bahis seçeneği
+    mevcuttur. Yatırımcılar tüm bu yatırım seçeneklerini diledikleri gibi
+    değerlendirebilirler ve bedava oyna seçeneğiyle de doğrudan bu yatırımlar
+    özelinde ücretsiz tecrübe sahibi olabilirler.
+</p>
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Slot Oyunları:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Casino alanında slot oyunlarının yeri ve
+    önemi büyüktür. Kolay öğrenilen ve basit yapısı nedeniyle çok tercih edilir.
+    Slot oyunlarında yatırımcılar oyun tarafından sunulan ödül tablolarına uymak
+    durumundadırlar. Bu ödül tablolarını slot makinesinde yakalayıp, 35.000 katı
+    kadar çarpana ulaşmak isterler.</p>
+    </dl>
+    <div class="table">
+      <div class="table-row seventh-table-row">
+        <div class="table-title-container">
+          <p class="table-title seventh-table-title">Sağlayıcılar</p>
+        </div>
+        <p class="table-description seventh-table-description">Pragmatic, EGT, Evolution, NetEnt, Fazi, Relaxgaming, Bgaming, Gaming Corps, Playson, Ruby Play, Reevo, Play’n Go, Red Tiger, YGGDRASIL, Ezugi, Fugaso, Kiron, Kalamba, No Limit City, Big Time Gaming, Hacksaw</p>
+      </div>
+      <div class="table-row seventh-table-row">
+        <div class="table-title-container">
+          <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+        </div>
+      <p class="table-description seventh-table-description">Blood Suckers, The Crown, Phoenix Fury, Magnify Man, The Great Pigsby, Shining Crown, Book of Nibelungen, Megaways MOB, Aloga Christmas, Gonzo’S Quest Megaways</p>
+      </div>
+    </div>
+<dl>
+    <p><strong>Akıllı Oyunlar:</strong></p>
+    <p>Yatırımcıların herhangi bir strateji ya da
+    müdahale göstermesine gerek kalmadan, otomatik sistemlerin işlediği ve şans
+        odaklı olan oyunlardır.</p>
+</dl>
+  <div class="table">
+    <div class="table-row seventh-table-row">
+      <div class="table-title-container">
+        <p class="table-title seventh-table-title">Sağlayıcılar</p>
+      </div>
+      <p class="table-description seventh-table-description">Aviatrix, Bgaming, Gaming Corps, Betsolutions, PragmaticPlay Live, Evoplay, Spribe</p>
+    </div>
+    <div class="table-row seventh-table-row">
+      <div class="table-title-container">
+        <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+      </div>
+    <p class="table-description seventh-table-description">Aviatrix, Aviator, Zeppelin, Spaceman, High Striker, Lucky Crumbling, Save the Hamster, Space XY, Jet Lucky 2, To Mars and Beyond, Skyliner, Plinko, Bank or Bust, Minest, Plinko</p>
+    </div>
+  </div>
+
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Blackjack:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Her elde kartlardan 21 sayısına yakınlaşmak ya
+    da 21 sayısını elde ederek Blackjack yapmak, oyuncuların en temel amacıdır.
+    9’a kadar olan kartlar aynı değere sahipken, Q, K, A gibi kartlar ise farklı
+        sayısal değerlere sahip olurlar.</p>
+</dl>
+<div class="table">
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Sağlayıcılar</p>
+    </div>
+    <p class="table-description seventh-table-description">Evolution, Games Inc, Play’n Go, Red Tiger, Betsoft, Pragmaticplay Live, G Games, TVBET, Playtech, Red Rake, Game Art, Mascot</p>
+  </div>
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+    </div>
+  <p class="table-description seventh-table-description">Pontoon, Blackjack, A Blackjack Free Bet Blackjack, Exclusive Blackjack 2, Blackjack MH VIP, Infinite Blackjack, Lightning Blackjack, Blackjack Bonus, Red Queen Blackjack, Soho All Bets Blackjack, Free Chip Blackjack, Ezugi Live Blackjack</p>
+  </div>
+</div>
+<dl>
+    <p><strong>Sanal Spor:</strong></p>
+    <p>Birçok spor branşının doğrudan bilgisayarlar
+    tarafından karşılaşmaya dönüştürüldüğü ve yatırımcıların ise sadece tahmin
+        yapmalarının yeterli olduğu bir bahis türüdür.</p>
+</dl>
+<div class="table">
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Sağlayıcılar</p>
+    </div>
+    <p class="table-description seventh-table-description">1X2 ve Kiron</p>
+  </div>
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+    </div>
+  <p class="table-description seventh-table-description">Virtual Football PRo, Instant Velodrome, Instant Trotting, Hounds, Instant Speedway, Instant Greyhounds, Instant Football, Virtual Racing, Virtual Tennis</p>
+  </div>
+</div>
+<dl>
+    <p class="main__paragraph main__paragraph--first"><strong>Jackpot:</strong></p>
+    <p class="main__paragraph main__paragraph--first">Belirli ödül birikimlerinin olduğu ve bu ödül
+    birikimlerinden oluşan patlamalarla yatırımcıların büyük ikramiyeler
+        kazandıkları slot oyunlarına Jackpot oyunları adı verilir.</p>
+</dl>
+<div class="table">
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Sağlayıcılar</p>
+    </div>
+    <p class="table-description seventh-table-description">NetEnt, YGGDRASIL, Gamzix, Playtech, QuickSpin, Betsoft</p>
+  </div>
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+    </div>
+  <p class="table-description seventh-table-description">Divine Fortune, Holmes &amp; The Stolen Stones, Mega Joker, Dragon Chase, Enchanted, Mr.Vegas, A Night in Paris, The Slotfather, Chests of Plenty,, The Glass Slipper, Age of the Gods: Rulers of Olympus, Adventures Beyond Wonderland</p>
+  </div>
+</div>
+<dl>
+    <p><strong>Rulet:</strong></p>
+    <p>Rulet masasındaki topun, tahminlerinize uygun bir
+    noktada durması ya da direkt olarak tahmininize isabet etmesi ciddi ödül
+    kazanmanıza imkan tanır. Rulet oyunlarındaki temel mantık, rulet topunun
+        duracağı alanı ya da noktayı doğru tahmin etmektir.</p>
+</dl>
+<div class="table">
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Sağlayıcılar</p>
+    </div>
+    <p class="table-description seventh-table-description">EGT, Bgmaing, Elysium, Evoplay, Kalamba, Wazdan, Reevo, Play’n Go, YGGDARSIL, Apollo, Playtech, Games INC, Befsoft,</p>
+  </div>
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+    </div>
+  <p class="table-description seventh-table-description">European 3D Roulette, Baccarat, Amerikan Ruleti, Türk Ruleti, Rus Ruleti, Bulgar Ruleti, Golden Chip Roulette, French Roulette, Roulette Azure, Mega Roulette, Roulette Macao, Speed Roulette, Quantum Roluette Live, Age of the Gods: Jackpots Roulette</p>
+  </div>
+</div>
+<dl>
+    <p class="main__paragraph main__paragraph--first">
+        <strong>Poker:</strong></p>
+        <p class="main__paragraph main__paragraph--first">En iyi 5’li kart kombinasyonunu yakalamak ya da
+        bu amaca en çok yaklaşmak, Poker oyunlarında kazandıran unsurların
+            başında gelir.</p>
+</dl>
+<div class="table">
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Sağlayıcılar</p>
+    </div>
+    <p class="table-description seventh-table-description">Evolution, Betsoft, Ezugi, Oryx, Red RAke, Playtech, Wazdan, Games Inc, Gaming Corps, TVBET, Evoplay</p>
+  </div>
+  <div class="table-row seventh-table-row">
+    <div class="table-title-container">
+      <p class="table-title seventh-table-title">Popüler Oyunlar</p>
+    </div>
+  <p class="table-description seventh-table-description">Three Card Poker, Caribbean Poker, Casino Hold’em, Jacks or Better, Oasis Poker, Texas Hold’em, Trey Poker, Wild Texas, Amerikan Poker 5, Carribena Poker Beach, Amerikan Poker Gold</p>
+  </div>
+</div>
+<h2 class="main__pretitle" id="canli">Paribahis Canlı Oyunlar</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis'te Canlı Oyunlar bölümünde sunulanlar şunlardır:
+</p>
+<ul class="list_titles">
+    <li><strong>Canlı Casino</strong>: Paribahis, gerçek krupiyelerle oynanan
+    çeşitli canlı casino oyunlarını sunmaktadır. Blackjack, Rulet, Baccarat gibi
+    popüler oyunları canlı olarak oynayabilir ve gerçek casino deneyimini
+    evinizin konforunda yaşayabilirsiniz.</li>
+    <li><strong>Canlı Poker</strong>: Texas Hold'em, Omaha gibi farklı poker
+    çeşitlerini canlı olarak oynayabilir ve rakiplerinizle mücadele
+    edebilirsiniz.</li>
+    <li><strong>Canlı Tombala</strong>: Oyuncular, gerçek krupiyeler eşliğinde
+    tombala kartlarını satın alabilir, numaraları takip edebilir. Örnek olarak,
+    90 top ile oynanan klasik tombala veya 75 top ile oynanan Amerikan tombalası
+    gibi farklı tombala çeşitleri canlı olarak sunulmaktadır.</li>
+    <li><strong>Canlı Slot Oyunları</strong>: Paribahis'te canlı slot oyunları da
+    yer almaktadır. Gerçek krupiyeler eşliğinde slot oyunlarını oynayabilir ve
+    büyük kazançlar elde etme şansını yakalayabilirsiniz.</li>
+    </ul>
+<p class="main__paragraph">
+    Paribahis Canlı Oyunlar bölümü, oyunculara gerçek krupiyelerle etkileşimli
+    bir oyun deneyimi sunmakta ve adil oyun ortamı sağlamaktadır.
+</p class="main__paragraph">
+<h2 id="bahis" class="main__pretitle">Paribahis Bahis</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis firmasının bahis bölümü, spor bahisleri ve canlı spor olmak üzere
+    ikiye ayrılır. Her iki alanda da yatırımcıların spor karşılaşmalarına dair
+    kupon oluşturma mantığıyla hareket etmeleri gerekir. 40’tan fazla spor
+    branşının yer aldığı bu alanlarda, gerek standart spor bahis karşılaşması
+    gerekse canlı yatırım gibi seçeneklerde yatırımlarınızı gerçekleştirmeniz
+    söz konusu olur.
+</p>
+<div class="table">
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">AnaSayfa</p>
+    </div>
+    <p class="table-description eighth-table-description">Spor karşılaşmalarının genel olarak tarafınıza sunulduğu, temel spor gündeminin yer aldığı bir bahis alanıdır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Canlı</p>
+    </div>
+    <p class="table-description eighth-table-description">Canlı olarak yatırım yapabileceğiniz spor karşılaşmalarını görüntüleyebileceğiniz bir alandır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">İzleme Listesi</p>
+    </div>
+    <p class="table-description eighth-table-description">Seçtiğiniz detaylar ve unsurlar özelinde takip edebileceğiniz karşılaşmaların yer aldığı bir alandır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Takvim</p>
+    </div>se
+    <p class="table-description eighth-table-description">Belirli tarih ve saat aralıklarındaki karşılaşmalara göz atabileceğiniz bir alandır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Bahis Akışı</p>
+    </div>
+    <p class="table-description eighth-table-description">Popüler oynanan bahis tahminleri ve karşılaşmalara dair gerek oran gerekse tutar bilgilerini alabileceğiniz bir alandır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Popüler Ligler</p>
+    </div>
+    <p class="table-description eighth-table-description">Türk bahis yatırımcıları için yatırım anlamında cazip olan spor branşları ve bu branşlara dair liglerdeki karşılaşmaların yer aldığı bir noktadır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Tüm Sporlar</p>
+    </div>
+    <p class="table-description eighth-table-description">40’tan fazla spor branşını tek tek görüntüleyebileceğiniz bölümdür.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Canlı Yayın</p>
+    </div>
+    <p class="table-description eighth-table-description">Canlı olarak karşılaşmayı takip edebileceğiniz bir yayın akış alanıdır. Karşılaşma listeleri ve yayınları yer alır.</p>
+  </div>
+  <div class="table-row eighth-table-row">
+    <div class="table-title-container">
+      <p class="table-title eighth-table-title">Canlı İstatistikler</p>
+    </div>
+    <p class="table-description eighth-table-description">Yayını olmayan karşılaşmaları en azından istatistikler üzerinden takip edebileceğiniz bir alandır.</p>
+  </div>
+</div>
+<p class="main__paragraph">
+    Paribahis ile Spor Bahis Yatırımı Nasıl Yapılır?
+</p>
+<ul class="list_titles">
+    <li>
+        İlk olarak “Spor Bahisleri” ya da “Canlı Spor” bahisleri alanlarından
+        herhangi birine giriş yapınız.
+    </li>
+    <li>
+        Ardından karşılaşmaları kategorilerine göre sıralayınız. İlgilendiğiniz
+        karşılaşmaların oranlarına ve istatistiklerine göz atınız.
+    </li>
+    <li>
+        Hemen sonrasında karşılaşmaya dair bahis tahmin seçeneğini
+        işaretleyiniz. Tek maçlık bir kupon yapacaksanız, kuponunuza
+        ilerleyiniz. Birden fazla maç ekleyecekseniz tahmin yapmaya devam
+        ediniz.
+    </li>
+    <li>
+        Ardından “Bahis Kuponu” alanında oluşturduğunuz kupona göz atınız ve
+        kupona dair tutar ya da sistem ayarlamalarını sağlayınız.
+    </li>
+    <li>
+        Sonrasında kuponunuzu onaylayınız ve böylelikle yatırım işlemlerinizi
+        tamamlayınız.
+    </li>
+    <li>
+        Oluşturduğunuz kuponu “Bahislerim” kısmından takip edebilirsiniz.
+    </li>
+    <li>
+        Tüm bu detaylar spor ya da canlı spor kategorileri için aynıdır.
+        Herhangi bir değişiklik söz konusu değildir. Sadece canlı spor
+        bahislerinde hızlı olmak gerekliliği, oranların her an değişebileceği ya
+        da kapanabileceği unutulmamalıdır.
+    </li>
+</ul>
+<p class="main__paragraph">
+    Paribahis'te Türk oyuncular için popüler olan sporlar şunlardır:
+</p>
+<ul class="list_titles">
+    <li>
+        <strong>Futbol</strong>: Türk Süper Lig, UEFA Şampiyonlar Ligi, Avrupa
+        ligleri ve uluslararası turnuvalar gibi birçok futbol etkinliğine bahis
+        yapabilirsiniz.
+    </li>
+    <li>
+        <strong>Basketbol</strong>: Paribahis'te Türk Basketbol Süper Ligi, NBA
+        ve diğer uluslararası basketbol ligleri için bahis yapabilirsiniz.
+    </li>
+    <li>
+        <strong>Tenis</strong>: Tenis, Paribahis'te popüler olan bir diğer spor
+        dalıdır. Grand Slam turnuvaları, ATP ve WTA turnuvaları gibi çeşitli
+        tenis etkinliklerine bahis yapabilirsiniz.
+    </li>
+    <li>
+        <strong>Voleybol</strong>: Paribahis'te Türk voleybol ligleri ve
+        uluslararası voleybol etkinliklerine bahis yapabilirsiniz.
+    </li>
+    <li>
+        <strong>Formula</strong> <strong>1</strong>: Motor sporlarına ilgi
+        duyanlar için Formula 1, Paribahis'te popüler bir seçenektir.
+    </li>
+</ul>
+<p class="main__paragraph">
+    Bu, Paribahis'te popüler olan spor dallarının sadece birkaç örneğidir. Site,
+    geniş bir spor bahisleri portföyü sunarak farklı ilgi alanlarına ve
+    tercihlere hitap etmektedir.
+</p>
+<h2 class="main__pretitle" id="espor">eSpor karşılaşmaları</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis, eSpor tutkunları için çeşitli eSpor karşılaşmaları sunmaktadır.
+    Oyuncular, popüler eSpor oyunlarına canlı olarak bahis yapabilir ve heyecan
+    dolu mücadeleleri takip edebilir. Gibi oyunlar üzerine bahis seçenekleri
+    sunulmaktadır:
+</p>
+<ul class="list_titles">
+    <li>Örneğin</li>
+    <li>League of Legends</li>
+    <li>Dota 2</li>
+    <li>Counter-Strike: Global Offensive</li>
+    </ul>
+<p class="main__paragraph">
+    Canlı yayınlar eşliğinde gerçekleşen eSpor karşılaşmaları, oyunculara yüksek
+    bahis oranları ve kazanç fırsatları sunmaktadır. eSpor bahisleri,
+    oyuncuların takımların performansını değerlendirmelerini ve doğru
+    tahminlerde bulunmalarını gerektirir.
+</p>
+<h2 class="main__pretitle" id="mobil">Mobil Site</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis’in mobil uygulamasını cep telefonunuza indirmeniz durumunda, artık
+    giriş adresi arama derdine son verebilirsiniz. Mobil uygulama herhangi bir
+    şekilde kapanmayan ve erişimi kapatılmayan bir yapıdır. Bu nedenle giriş
+    adresi sorunu yaşamanız durumunda en kesin ve en kolay çözüm mobil uygulama
+    olacaktır. Peki, mobil uygulama nasıl indirilir ve nasıl kurulur?
+</p>
+<p class="main__paragraph">
+    Paribahis Android ve IOS Mobil Uygulama İndirme, Kurulum İşlemleri:
+</p>
+<ol class="list_titles">
+    <li>
+        Paribahis’in mobil uygulama indirme işlemleri için sitede bulunan
+        telefon simgesine tıklamanız gerekir. Mobil sitede ise “Paribahis
+        Uygulaması” alanına tıklanması yeterlidir.
+    </li>
+    <li>
+        Hemen ardından açılan sayfada karşınıza çıkan simgelerden, cep
+        telefonunuzla uyumlu olana tıklamanız büyük önem taşır. Cihazınız Apple
+        markalı bir cihaz ise IOS logosuna, Android işletim sistemine sahipse
+        Android logosuna ve Windows işletim sistemine sahipse de Windows
+        logosuna tıklamanız gerekir.
+    </li>
+    <li>
+        Tüm bu işlemlerin ardından her cihaz için farklı farklı QR kodlar
+        karşınıza çıkar. Windowslarda ise direkt olarak Chrome eklentisi
+        üzerinden kurulum gerçekleşir.
+    </li>
+    <li>
+        Karşınıza çıkan QR kodu cep telefonunuzun kamerasına okutmanız durumunda
+        uygulama dosyasının indirileceği sayfaya yönlendirme yapmanız gerekir.
+    </li>
+    <li>
+        Ardından açılan sayfada indirme işlemi başlar ve uygulamanın kurulum
+        dosyaları cep telefonunuza iner.
+    </li>
+    <li>
+        Kurulum dosyalarını başlatmanız durumunda kurulum başlar ancak bu
+        noktada “bilinmeyen kaynaklardan yapılan yüklemelere izin ver”
+        seçeneğini işaretlemeniz büyük önem taşır
+    </li>
+    <li>
+        Sonrasında kurulum işlemleri devam eder uygulama cep telefonunuza
+        kurulur. Böylelikle kurulumlar sonuçlanmış olur ve uygulamayı tekrar
+        kullanımınız mümkündür.
+    </li>
+</ol>
+<div class="ninth__table table">
+  <div class="ninth__table-row">
+    <div class="table-title-container ninth__table-title-container">
+      <p class="table-title ninth-table-title">İşletim Sistemi</p>
+    </div>
+    <p class="table-description ninth__table-description--with-width">Versiyonu</p>
+    <p class="table-description ninth-table-description">Güncellemeler</p>
+  </div>
+  <div class="ninth__table-row">
+    <div class="table-title-container ninth-table-title-container">
+      <p class="table-title ninth-table-title">Windows</p>
+    </div>
+    <p class="table-description ninth__table-description--with-width">Windows 7 ve üstü işletim sistemlerinde çalışır.</p>
+    <p class="table-description ninth-table-description">Yayını olmayan karşılaşmaları en azından istatistikler üzerinden takip edebileceğiniz bir alandır. Güncellemeler Google Chrome eklenti marketinden otomatik olarak gerçekleştirilir.</p>
+  </div>
+  <div class="ninth__table-row">
+    <div class="table-title-container ninth-table-title-container">
+      <p class="table-title ninth-table-title">Android</p>
+    </div>
+    <p class="table-description ninth__table-description--with-width">Android 5.0 ve üzeri işletim sistemlerinde çalışır.</p>
+    <p class="table-description ninth-table-description">Güncellemeler manuel olarak yapılır. Güncelleme gerektiği zaman uygulama uyarı verir ve yukarıda yer alan indirme adımları takip edilirse, uygulamanın güncel versiyonu cihaza kurulur.</p>
+  </div>
+  <div class="ninth__table-row">
+    <div class="table-title-container ninth-table-title-container">
+      <p class="table-title ninth-table-title">IOS</p>
+    </div>
+    <p class="table-description ninth__table-description--with-width">IOS 10.0 ve üzeri işletim sistemine sahip cihazlarda, aynı zamanda iPhone 6 ve üzeri sürümlerde çalışır.</p>
+    <p class="table-description ninth-table-description">Güncellemeler kullanıcı tarafından, uygulamanın yeniden kurulumu ile yapılır. Yukarıdaki indirme adımlarının ve kurulum adımlarının tekrarlanması ile güncelleme sağlanır.</p>
+  </div>
+</div>
+<h2 class="main__pretitle" id="sirketinin">Paribahis bahis şirketinin oyuncu yorumları</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis bahis şirketi hakkında oyuncu yorumları genellikle olumlu yönde olmuştur.
+</p>
+<ul class="list_titles">
+    <li>
+        Oyuncular geniş bir spor bahisleri seçeneği, çeşitli casino oyunları ve
+        canlı oyunlar sunan Paribahis'i beğenmektedir.
+    </li>
+    <li>
+        Ayrıca, hızlı ödeme işlemleri, güvenilirlik ve güvenlik konularında da
+        olumlu geri bildirimler almaktadır.
+    </li>
+    <li>
+        Oyuncular aynı zamanda müşteri hizmetlerinin etkin ve yardımcı olduğunu
+        belirtmektedir.
+    </li>
+</ul>
+<p class="main__paragraph">
+    Ancak, her oyuncunun deneyimi farklı olabilir, bu yüzden dikkate alınması
+    gereken birçok faktör vardır. Oyuncuların kendi deneyimlerini ve
+    tercihlerini göz önünde bulundurmaları önemlidir.
+</p>
+<h2 class="main__pretitle" id="sss">Sıkça Sorulan Sorular</h2>
+<ol class="list_titles">
+    <li>
+        <p><strong>Paribahis giriş adresine nereden ulaşabilirim?</strong></p>
+        <p>Paribahis giriş adresine başta sitemiz olmak üzere,
+        Paribahis’in diğer resmi birçok kanalı üzerinden kolaylıkla
+            ulaşabilirsiniz.</p>
+    </li>
+    <li>
+        <p><strong>Paribahis ödeme yapıyor mu?</strong></p>
+        <p>Paribahis ödeme hassasiyeti konusunda son derece büyük bir
+            firmadır ve yatırımcılara her daim en kısa süre içerisinde ödeme yapar.</p>
+    </li>
+    <li>
+        <p><strong>Paribahis yasal bir bahis sitesi mi?</strong></p>
+        <p>Paribahis her ne kadar ülkemizde olmasa da global anlamda yasal
+            olarak hizmetlerini sunan bir bahis firmasıdır.</p>
+    </li>
+    <li>
+        <p class="main__paragraph"><strong>Bonus kodu nasıl alınır?</strong></p>
+    <p class="main__paragraph">Paribahis'in güncel promosyonlarını takip ederek bonus kodlarını
+    öğrenebilirsiniz. Bunun için genellikle Paribahis'in resmi web sitesi,
+    sosyal medya hesapları veya e-posta bildirimleri gibi kanalları
+    kullanabilirsiniz. Bonus kodunu elde ettikten sonra, hesabınıza girerek
+    ilgili bonusu aktif hale getirebilirsiniz.</p>
+<h2 class="main__pretitle" id="sonuc">Paribahis'in çalışması hakkında sonuç</h2>
+<p class="main__paragraph main__paragraph--first">
+    Paribahis, geniş bahis seçenekleri, çeşitli casino oyunları ve canlı oyunlar
+    sunan bir platform olarak değerlendirilebilir. Oyuncular, çeşitli spor
+    dallarında bahis yapma imkanı bulurken, aynı zamanda çeşitli casino
+    oyunlarında da keyifli vakit geçirebilmektedir. Platform, hızlı ödeme
+    işlemleri ve güvenli bir oyun ortamı sağlamak için çeşitli güvenlik
+    önlemleri almaktadır. Müşteri hizmetleri ekibi, oyunculara 7/24 destek
+    sunarak sorularını yanıtlamakta ve yardımcı olmaktadır. Ancak, her oyuncunun
+    deneyimi farklı olabilir ve bahis oynamadan önce platformun kurallarını ve
+    politikalarını dikkatlice incelemek önemlidir.
+</p>
+    </main>
+    <footer class="footer">
+      <p class="footer-copy">Tüm haklara ve koşullara saygı duyulur. Paribahis © 2023</p>
+  </footer>
   </body>
 </html>
