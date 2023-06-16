@@ -455,6 +455,10 @@ body {
   padding-bottom: 3px;
 }
 
+li::marker {
+  color: #f8ff14;
+}
+
 @media (max-width: 1200px) {
 	.main {
 		margin-top: 50px;
@@ -474,4 +478,8 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+.yellowlink {
+  color: #f8ff14;
 }
