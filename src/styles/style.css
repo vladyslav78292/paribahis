@@ -73,6 +73,7 @@ body {
   list-style-type: none;
   margin-left: 5px;
   font-size: 16px;
+  width: 230px;
   line-height: 18px;
   font-weight: 400;
 }
@@ -81,6 +82,7 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .main__paragraph {
 	line-height: 32px;
 	margin-top: 40px;
@@ -151,10 +153,84 @@ body {
 	z-index: 5;
 }
 
+.content_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.list__container {
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.license {
+  max-width: 260px;
+  max-height: 276px;
+}
+
+.bonuses {
+  margin-top: 40px;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.registration {
+  width: 260px;
+  height: 260px;
+}
+
+.casino {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.sport__container {
+  gap: 15px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.sport {
+  width: 25%;
+}
+
+.mobile {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
 @media (max-width: 1200px) {
 	.header {
 		padding: 10px 20px;
 	}
+
+  .registration {
+    align-self: center;
+  }
+
+  .list__container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .license {
+    align-self: center;
+  }
+
+  .content_container {
+    flex-direction: column;
+  }
+
+  .content_image {
+    align-self: center;
+    width: 70%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -168,11 +244,37 @@ body {
 	height: 117px;
 }
 
+@media (max-width: 920px) {
+  .sport__container {
+    flex-direction: column;
+    gap: 30px ;
+  }
+
+  .sport {
+    width: 100%;
+  }
+}
 @media (max-width: 720px) {
 	.header__logo-image {
 		width: 150px;
 		height: 87px;
 	}	
+
+  .content_image {
+    width: 100%;
+  }
+
+  .mobile {
+    width: 100%;
+  }
+
+  .bonuses {
+    width: 100%;
+  }
+
+  .registration {
+    width: 100%;
+  }
 }
 .header__logo {
 	min-width: 170px;
@@ -490,7 +592,6 @@ li::marker {
     font-weight: 700;
     padding: 12px 0;
     text-transform: uppercase;
-    border-radius: 33px;
     text-align: center;
     width: calc(50% - 17px);
     position: fixed;
@@ -507,7 +608,7 @@ li::marker {
 
   .fixed__button--giris {
     color: black;
-    background: linear-gradient(90deg, #FFC902 0%, #FFE61E 100%);
+    background-color: #f8ff13;
     left: 12px;
   }
 
@@ -528,4 +629,143 @@ a {
 
 .yellowlink {
   color: #f8ff14;
+}
+
+.bonus-image-container {
+  height: 270px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+
+
+
+.bonus-image {
+  background-position: 90% 33%;
+  overflow: hidden;
+  height: 270px;
+  background-color: #0026F5;
+  background-image: url('../images/pb_bonus.jpg');
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+	align-items: end;
+	position: relative;
+	margin-top: 30px;
+}
+
+.bonus-image--second {
+  background-image: url("../images/bonus-image-second.jpg");
+  background-position: 0%;
+}
+
+.small__images {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+	position: absolute;
+	bottom: 16px;
+	width: 100%;
+	white-space: nowrap;
+	gap: 10px;
+}
+
+.bonus-image-text-container {
+  z-index: 12;
+  position: relative;
+	top: 30px;
+	width: 90%;
+  margin: 0 auto;
+}
+
+.bonus-image-title {
+  color: white;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.bonus-image-pretitle {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.bonus-image-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1D222F;
+  background-color: #f8ff13;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .bonus-image-title {
+    font-size: 24px;
+  }
+
+  .bonus-image-pretitle {
+    font-size: 16px;
+  }
+
+  .bonus-image {
+    background-position: 50%;
+  }
+
+  .bonus-image--second {
+    background-position: 25%;
+  }
+}
+
+@media (max-width: 720px) {
+  .bonus-image-pretitle {
+    font-size: 13px;
+  }
+
+  .bonus-image-container {
+    width: calc(100% - 32px);
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 273px;
+  }
+
+  .bonus-image {
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: 16px;
+    background-position: 40%;
+  }
+
+  .bonus-image--second {
+    background-position: 25%;
+  }
+
+  .bonus-image-text-container {
+    left: 0px;
+    width: calc(100% - 23px);
+    top: 40px;
+  }
+
+  .bonus-image-title {
+    font-size: 18px;
+  }
+
+  .bonus-image-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+	.bonus-image {
+		background-position: 100%;
+    background-image: url('../images/pb_bonus-mobile.jpg');
+	}
+
+  .bonus-image--second {
+    background-image: url('../images/bonus-image-second-mobile.jpg');
+  }
 }
