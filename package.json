@@ -42,6 +42,13 @@
     "projectType": "layout"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "@popperjs/core": "^2.11.8",
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^2.1.2",
+    "get-size": "^3.0.0",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "masonry-layout": "^4.2.2",
+    "outlayer": "^2.1.1"
   }
 }
